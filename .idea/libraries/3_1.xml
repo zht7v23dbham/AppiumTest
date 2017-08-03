@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="3.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../repository/selenium-server-standalone/selenium-server-standalone/3.1.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../repository/selenium-server-standalone/selenium-server-standalone/3.1.0/selenium-server-standalone-3.1.0.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../repository/selenium-server-standalone/selenium-server-standalone/3.1.0" recursive="false" />
+  </library>
+</component>

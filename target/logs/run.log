@@ -1,0 +1,964 @@
+2017-08-02 10:24:56,251 DEBUG Forwarding newSession on session null to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:24:56,261 DEBUG Forwarding newSession on session null to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:24:56,263 DEBUG Forwarding newSession on session null to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-08-02 10:24:56,277 DEBUG Forwarding newSession on session null to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:24:56,279 DEBUG Forwarding newSession on session null to remote execute(line:234)Opening connection {}->http://127.0.0.1:4723
+2017-08-02 10:24:56,282 DEBUG Forwarding newSession on session null to remote connect(line:138)Connecting to /127.0.0.1:4723
+2017-08-02 10:24:56,284 DEBUG Forwarding newSession on session null to remote connect(line:145)Connection established 127.0.0.1:49288<->127.0.0.1:4723
+2017-08-02 10:24:56,284 DEBUG Forwarding newSession on session null to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:24:56,285 DEBUG Forwarding newSession on session null to remote execute(line:255)Executing request POST /wd/hub/session HTTP/1.1
+2017-08-02 10:24:56,286 DEBUG Forwarding newSession on session null to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:24:56,287 DEBUG Forwarding newSession on session null to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:24:56,289 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2017-08-02 10:24:56,289 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:24:56,289 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 762
+2017-08-02 10:24:56,290 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:24:56,290 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:24:56,291 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:24:56,292 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:24:56,292 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2017-08-02 10:24:56,293 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:24:56,293 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Content-Length: 762[\r][\n]"
+2017-08-02 10:24:56,298 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:24:56,299 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:24:56,299 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:24:56,299 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:24:56,300 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:24:56,300 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 >> "{"capabilities":[{"desiredCapabilities":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":"True","platformName":"Android","deviceName":"57b0b87a","resetKeyboard":"True"}},{"requiredCapabilities":{}}],"desiredCapabilities":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":"True","platformName":"Android","deviceName":"57b0b87a","resetKeyboard":"True"},"requiredCapabilities":{}}"
+2017-08-02 10:25:31,288 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2017-08-02 10:25:31,290 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:25:31,291 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:25:31,292 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:25:31,293 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:25:31,294 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:25:31,296 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:25:31,297 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Length: 900[\r][\n]"
+2017-08-02 10:25:31,298 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:25:31 GMT[\r][\n]"
+2017-08-02 10:25:31,299 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:25:31,300 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:25:31,301 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 << "{"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: C:\\Windows\\system32\\cmd.exe /s /c \"D:\\android-sdk-windows\\platform-tools\\adb.exe -s 57b0b87a install \"D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\unlock_apk\\unlock_apk-debug.apk\"\"\n** daemon still not running\r\n)","killed":false,"code":4294967295,"signal":null,"cmd":"C:\\Windows\\system32\\cmd.exe /s /c \"D:\\android-sdk-windows\\platform-tools\\adb.exe -s 57b0b87a install \"D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\unlock_apk\\unlock_apk-debug.apk\"\"","origValue":"Command failed: C:\\Windows\\system32\\cmd.exe /s /c \"D:\\android-sdk-windows\\platform-tools\\adb.exe -s 57b0b87a install \"D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\unlock_apk\\unlock_apk-debug.apk\"\"\n** daemon still not running\r\n"},"sessionId":null}"
+2017-08-02 10:25:31,306 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2017-08-02 10:25:31,306 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:25:31,307 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:25:31,307 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:25:31,308 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:25:31,308 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:25:31,308 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:25:31,309 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 900
+2017-08-02 10:25:31,309 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:25:31 GMT
+2017-08-02 10:25:31,310 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:25:31,316 DEBUG Forwarding newSession on session null to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:25:31,322 DEBUG Forwarding newSession on session null to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:25:31,323 DEBUG Forwarding newSession on session null to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:25:52,606 DEBUG Forwarding newSession on session null to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:25:52,613 DEBUG Forwarding newSession on session null to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:25:52,615 DEBUG Forwarding newSession on session null to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-08-02 10:25:52,626 DEBUG Forwarding newSession on session null to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:25:52,628 DEBUG Forwarding newSession on session null to remote execute(line:234)Opening connection {}->http://127.0.0.1:4723
+2017-08-02 10:25:52,631 DEBUG Forwarding newSession on session null to remote connect(line:138)Connecting to /127.0.0.1:4723
+2017-08-02 10:25:52,634 DEBUG Forwarding newSession on session null to remote connect(line:145)Connection established 127.0.0.1:49393<->127.0.0.1:4723
+2017-08-02 10:25:52,635 DEBUG Forwarding newSession on session null to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:25:52,636 DEBUG Forwarding newSession on session null to remote execute(line:255)Executing request POST /wd/hub/session HTTP/1.1
+2017-08-02 10:25:52,638 DEBUG Forwarding newSession on session null to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:25:52,639 DEBUG Forwarding newSession on session null to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:25:52,643 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2017-08-02 10:25:52,644 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:25:52,644 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 762
+2017-08-02 10:25:52,645 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:25:52,647 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:25:52,649 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:25:52,653 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:25:52,654 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2017-08-02 10:25:52,654 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:25:52,654 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Content-Length: 762[\r][\n]"
+2017-08-02 10:25:52,655 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:25:52,658 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:25:52,658 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:25:52,658 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:25:52,659 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:25:52,659 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 >> "{"capabilities":[{"desiredCapabilities":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":"True","platformName":"Android","deviceName":"57b0b87a","resetKeyboard":"True"}},{"requiredCapabilities":{}}],"desiredCapabilities":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":"True","platformName":"Android","deviceName":"57b0b87a","resetKeyboard":"True"},"requiredCapabilities":{}}"
+2017-08-02 10:26:01,425 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 303 See Other[\r][\n]"
+2017-08-02 10:26:01,426 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:01,426 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:01,426 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:01,426 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:01,427 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:01,427 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Location: http://127.0.0.1:4723/wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a[\r][\n]"
+2017-08-02 10:26:01,427 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,427 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Length: 74[\r][\n]"
+2017-08-02 10:26:01,427 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:01 GMT[\r][\n]"
+2017-08-02 10:26:01,428 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:01,428 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:01,428 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 << "Appium session started with sessionId 3563bf60-b220-46d0-8328-1f4cb05bca1a"
+2017-08-02 10:26:01,430 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 303 See Other
+2017-08-02 10:26:01,431 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:01,431 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:01,431 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:01,431 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:01,431 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:01,432 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Location: http://127.0.0.1:4723/wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a
+2017-08-02 10:26:01,432 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: text/html; charset=utf-8
+2017-08-02 10:26:01,432 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 74
+2017-08-02 10:26:01,432 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:01 GMT
+2017-08-02 10:26:01,432 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:01,436 DEBUG Forwarding newSession on session null to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:01,437 DEBUG Forwarding newSession on session null to remote getLocationURI(line:142)Redirect requested to location 'http://127.0.0.1:4723/wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a'
+2017-08-02 10:26:01,440 DEBUG Forwarding newSession on session null to remote execute(line:159)Redirecting to 'http://127.0.0.1:4723/wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a' via {}->http://127.0.0.1:4723
+2017-08-02 10:26:01,441 DEBUG Forwarding newSession on session null to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:01,442 DEBUG Forwarding newSession on session null to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,442 DEBUG Forwarding newSession on session null to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:01,442 DEBUG Forwarding newSession on session null to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:01,442 DEBUG Forwarding newSession on session null to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,443 DEBUG Forwarding newSession on session null to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,443 DEBUG Forwarding newSession on session null to remote execute(line:207)Stale connection check
+2017-08-02 10:26:01,444 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:01,444 DEBUG Forwarding newSession on session null to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:01,444 DEBUG Forwarding newSession on session null to remote execute(line:255)Executing request GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,444 DEBUG Forwarding newSession on session null to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:135)http-outgoing-0 >> GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:01,445 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:01,446 DEBUG Forwarding newSession on session null to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:01,446 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1[\r][\n]"
+2017-08-02 10:26:01,446 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,446 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:01,447 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:01,447 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:01,447 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:01,447 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:01,450 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:01,450 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:01,450 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:01,450 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Content-Length: 913[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "ETag: W/"391-ba55b6ab"[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:01 GMT[\r][\n]"
+2017-08-02 10:26:01,451 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","browserName":"","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:01,452 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 913
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << ETag: W/"391-ba55b6ab"
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:01 GMT
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:01,453 DEBUG Forwarding newSession on session null to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:01,456 DEBUG Forwarding newSession on session null to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:01,456 DEBUG Forwarding newSession on session null to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,478 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:01,478 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:01,479 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,479 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,479 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:01,482 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:01,482 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:01,482 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,483 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:01,483 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:01,483 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,483 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Cache-Control: no-cache
+2017-08-02 10:26:01,483 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:01,484 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:01,484 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:01,484 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:01,484 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1[\r][\n]"
+2017-08-02 10:26:01,484 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2017-08-02 10:26:01,485 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:01,485 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:01,485 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:01,485 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:01,485 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:01,488 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:01,488 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:01,488 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:01,489 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:01,489 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:01,489 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,489 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 913[\r][\n]"
+2017-08-02 10:26:01,489 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "ETag: W/"391-ba55b6ab"[\r][\n]"
+2017-08-02 10:26:01,490 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:01 GMT[\r][\n]"
+2017-08-02 10:26:01,490 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:01,490 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:01,490 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","browserName":"","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:01,491 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:01,491 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:01,491 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:01,491 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:01,491 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 913
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << ETag: W/"391-ba55b6ab"
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:01 GMT
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:01,492 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:01,493 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:01,493 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,499 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:01,500 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:01,500 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,500 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,501 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:01,502 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:01,502 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:01,502 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,502 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:01,502 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Cache-Control: no-cache
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:01,503 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:01,504 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "GET /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1[\r][\n]"
+2017-08-02 10:26:01,504 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2017-08-02 10:26:01,504 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:01,504 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:01,504 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:01,505 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:01,505 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:01,513 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:01,513 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:01,514 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:01,514 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:01,514 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:01,514 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,515 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 913[\r][\n]"
+2017-08-02 10:26:01,515 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "ETag: W/"391-ba55b6ab"[\r][\n]"
+2017-08-02 10:26:01,515 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:01 GMT[\r][\n]"
+2017-08-02 10:26:01,515 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:01,515 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:01,516 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","browserName":"","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","platformVersion":"5.1","browserName":"","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"app":"/autotest/app/20170725/app-debug.apk","appPackage":"com.coolqi.partner","appActivity":"com.coolqi.partner.module.home.SplashActivity","noReset":true,"newCommandTimeout":"300","unicodeKeyboard":true,"platformName":"Android","deviceName":"57b0b87a","resetKeyboard":true},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:01,516 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:01,516 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:01,516 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:01,516 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:01,517 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:01,517 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,518 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 913
+2017-08-02 10:26:01,518 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << ETag: W/"391-ba55b6ab"
+2017-08-02 10:26:01,518 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:01 GMT
+2017-08-02 10:26:01,518 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:01,518 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:01,519 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:01,519 DEBUG Forwarding getSession on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,719 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:01,719 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:01,720 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,720 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:01,720 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:01,722 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:01,722 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:01,722 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 49
+2017-08-02 10:26:01,723 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:01,724 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:01,724 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:01,725 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:01,725 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:01,726 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:01,727 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:01,727 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"name","value":"[0xe9][0x85][0xb7][0xe9][0xaa][0x91][0xe5][0x8d][0x95][0xe8][0xbd][0xa6]-[0xe5][0x90][0x88][0xe4][0xbc][0x99][0xe4][0xba][0xba]"}"
+2017-08-02 10:26:01,971 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:01,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:01,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:01,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:01,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:01,973 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:01,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:01,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 74[\r][\n]"
+2017-08-02 10:26:01,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:01 GMT[\r][\n]"
+2017-08-02 10:26:01,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:01,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:01,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:01,976 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:01,976 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:01,983 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:01,984 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:01,984 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:01,985 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:01,987 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:01,991 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 74
+2017-08-02 10:26:01,992 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:01 GMT
+2017-08-02 10:26:01,993 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:01,993 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:01,994 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:01,994 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:02,519 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:02,519 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:02,520 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:02,520 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:02,521 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:02,522 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:02,522 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:02,523 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:02,523 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:02,524 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:02,524 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:02,525 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:02,525 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 49
+2017-08-02 10:26:02,526 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:02,526 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:02,527 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:02,527 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:02,528 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:02,529 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:02,529 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2017-08-02 10:26:02,530 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:02,530 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:02,531 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:02,531 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:02,532 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:02,532 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"name","value":"[0xe9][0x85][0xb7][0xe9][0xaa][0x91][0xe5][0x8d][0x95][0xe8][0xbd][0xa6]-[0xe5][0x90][0x88][0xe4][0xbc][0x99][0xe4][0xba][0xba]"}"
+2017-08-02 10:26:02,564 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:02,565 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:02,565 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:02,565 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 74[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:02 GMT[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:02,566 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:02,567 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:02,567 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:02,567 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:02,567 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:02,567 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 74
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:02 GMT
+2017-08-02 10:26:02,568 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:02,569 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:02,569 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:02,569 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,071 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:03,071 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:03,072 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,072 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,072 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:03,074 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:03,075 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:03,075 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:03,075 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:03,076 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:03,076 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:03,077 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:03,077 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 49
+2017-08-02 10:26:03,077 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:03,078 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:03,079 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:03,079 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:03,080 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:03,081 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:03,081 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2017-08-02 10:26:03,082 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:03,082 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:03,083 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:03,083 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:03,084 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:03,085 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"name","value":"[0xe9][0x85][0xb7][0xe9][0xaa][0x91][0xe5][0x8d][0x95][0xe8][0xbd][0xa6]-[0xe5][0x90][0x88][0xe4][0xbc][0x99][0xe4][0xba][0xba]"}"
+2017-08-02 10:26:03,169 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:03,170 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 74[\r][\n]"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:03 GMT[\r][\n]"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:03,171 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:03,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 74
+2017-08-02 10:26:03,173 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:03 GMT
+2017-08-02 10:26:03,173 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:03,173 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:03,173 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:03,173 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,675 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:03,676 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:03,676 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,676 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:03,676 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:03,678 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 49
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:03,679 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:03,680 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"name","value":"[0xe9][0x85][0xb7][0xe9][0xaa][0x91][0xe5][0x8d][0x95][0xe8][0xbd][0xa6]-[0xe5][0x90][0x88][0xe4][0xbc][0x99][0xe4][0xba][0xba]"}"
+2017-08-02 10:26:06,046 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:06,046 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:06,046 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:06,047 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:06,047 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:06,047 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:06,048 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,048 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 89[\r][\n]"
+2017-08-02 10:26:06,048 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:06 GMT[\r][\n]"
+2017-08-02 10:26:06,048 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:06,049 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:06,049 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:06,049 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:06,049 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:06,050 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:06,050 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:06,050 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:06,050 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:06,051 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,051 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 89
+2017-08-02 10:26:06,051 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:06 GMT
+2017-08-02 10:26:06,051 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:06,052 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:06,052 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:06,052 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:06,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:06,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,172 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:06,174 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:06,174 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:06,174 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:06,174 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:06,174 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 63
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:06,175 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:06,176 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/toolbar_img_left"}"
+2017-08-02 10:26:06,216 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:06,216 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 89[\r][\n]"
+2017-08-02 10:26:06,217 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:06 GMT[\r][\n]"
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"2"}],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:06,218 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 89
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:06 GMT
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:06,219 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:06,220 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:06,220 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,221 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:06,221 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:06,221 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,221 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,222 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:06,223 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 63
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:06,224 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:06,225 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:06,226 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/toolbar_img_left"}"
+2017-08-02 10:26:06,275 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:06,276 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,277 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 87[\r][\n]"
+2017-08-02 10:26:06,277 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:06 GMT[\r][\n]"
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"3"},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:06,278 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:06,279 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:06,279 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:06,279 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:06,279 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,280 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 87
+2017-08-02 10:26:06,280 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:06 GMT
+2017-08-02 10:26:06,280 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:06,280 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:06,281 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:06,281 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,283 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:06,283 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:06,283 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,283 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:06,284 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/3/click HTTP/1.1
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:06,285 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/3/click HTTP/1.1
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 10
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/3/click HTTP/1.1[\r][\n]"
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+2017-08-02 10:26:06,286 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:06,287 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:06,287 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:06,287 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:06,287 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:06,287 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"id":"3"}"
+2017-08-02 10:26:09,067 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:09,068 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:09,069 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:09,069 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:09,070 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:09,070 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:09,071 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:09,071 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2017-08-02 10:26:09,072 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:09 GMT[\r][\n]"
+2017-08-02 10:26:09,072 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:09,072 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:09,073 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":true,"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:09,074 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:09,074 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:09,075 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:09,076 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:09,076 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:09,077 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:09,077 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:09,078 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 76
+2017-08-02 10:26:09,079 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:09 GMT
+2017-08-02 10:26:09,080 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:09,080 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:09,082 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:09,083 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,255 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:17,255 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:17,255 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,256 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:17,256 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,256 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 67
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:17,257 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 67[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:17,258 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/nav_drawer_biketrack"}"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:17,320 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 89[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:17 GMT[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"4"}],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:17,321 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:17,322 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 89
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:17 GMT
+2017-08-02 10:26:17,323 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:17,324 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:17,324 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:17,324 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,325 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:17,325 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:17,325 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,326 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,326 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 67
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:17,327 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 67[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:17,328 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:17,329 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:17,329 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/nav_drawer_biketrack"}"
+2017-08-02 10:26:17,400 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:17,401 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 87[\r][\n]"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:17 GMT[\r][\n]"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"5"},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:17,402 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 87
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:17 GMT
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:17,403 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:17,404 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,404 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:17,405 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:17,405 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,405 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:17,405 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/5/click HTTP/1.1
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/5/click HTTP/1.1
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 10
+2017-08-02 10:26:17,406 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/5/click HTTP/1.1[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:17,407 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"id":"5"}"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:17,829 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:17 GMT[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":true,"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:17,830 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 76
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:17 GMT
+2017-08-02 10:26:17,831 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:17,832 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:17,832 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:17,832 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:19,971 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:19,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:19,972 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:19,973 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:19,973 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:19,973 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 63
+2017-08-02 10:26:19,974 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/elements HTTP/1.1[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:19,975 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:19,976 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:19,976 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/toolbar_img_left"}"
+2017-08-02 10:26:19,994 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:19,995 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 89[\r][\n]"
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:19 GMT[\r][\n]"
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"6"}],"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:19,996 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 89
+2017-08-02 10:26:19,997 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:19 GMT
+2017-08-02 10:26:19,998 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:19,998 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:19,998 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:19,998 DEBUG Forwarding findElements on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:19,999 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:20,000 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:20,000 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:20,000 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:20,000 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1
+2017-08-02 10:26:20,001 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 63
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element HTTP/1.1[\r][\n]"
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:20,002 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 63[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:20,003 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"using":"id","value":"com.coolqi.partner:id/toolbar_img_left"}"
+2017-08-02 10:26:20,016 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:20,017 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 87[\r][\n]"
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:20 GMT[\r][\n]"
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"7"},"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:20,018 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 87
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:20 GMT
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:20,019 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:20,020 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:20,020 DEBUG Forwarding findElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:20,021 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:20,021 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:20,021 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:20,021 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:20,021 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/7/click HTTP/1.1
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/7/click HTTP/1.1
+2017-08-02 10:26:20,023 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Content-Length: 10
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "POST /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a/element/7/click HTTP/1.1[\r][\n]"
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+2017-08-02 10:26:20,024 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:20,025 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:20,025 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:20,025 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:20,025 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:20,025 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 >> "{"id":"7"}"
+2017-08-02 10:26:23,174 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:23,175 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:23,175 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:23,176 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:23,177 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:23,177 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2017-08-02 10:26:23,178 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:23,178 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2017-08-02 10:26:23,179 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:23 GMT[\r][\n]"
+2017-08-02 10:26:23,179 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:23,180 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:23,180 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":true,"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:23,181 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:23,182 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:23,183 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:23,184 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:23,184 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:23,185 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Vary: X-HTTP-Method-Override
+2017-08-02 10:26:23,185 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:23,186 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 76
+2017-08-02 10:26:23,186 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:23 GMT
+2017-08-02 10:26:23,187 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:23,188 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:23,189 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:23,190 DEBUG Forwarding clickElement on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:26,251 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:122)CookieSpec selected: default
+2017-08-02 10:26:26,252 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote process(line:76)Auth cache not set in the context
+2017-08-02 10:26:26,252 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote requestConnection(line:249)Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:26,253 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:26,254 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote leaseConnection(line:282)Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:26,254 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:207)Stale connection check
+2017-08-02 10:26:26,255 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "[read] I/O error: Read timed out"
+2017-08-02 10:26:26,255 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote setSocketTimeout(line:90)http-outgoing-0: set socket timeout to 10800000
+2017-08-02 10:26:26,256 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:255)Executing request DELETE /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:26,256 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:260)Target auth state: UNCHALLENGED
+2017-08-02 10:26:26,256 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:266)Proxy auth state: UNCHALLENGED
+2017-08-02 10:26:26,257 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:135)http-outgoing-0 >> DELETE /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1
+2017-08-02 10:26:26,257 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Host: 127.0.0.1:4723
+2017-08-02 10:26:26,257 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Connection: Keep-Alive
+2017-08-02 10:26:26,258 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2017-08-02 10:26:26,258 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onRequestSubmitted(line:138)http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-08-02 10:26:26,259 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "DELETE /wd/hub/session/3563bf60-b220-46d0-8328-1f4cb05bca1a HTTP/1.1[\r][\n]"
+2017-08-02 10:26:26,259 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2017-08-02 10:26:26,259 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-08-02 10:26:26,260 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2017-08-02 10:26:26,260 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-08-02 10:26:26,261 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 >> "[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Date: Wed, 02 Aug 2017 02:26:27 GMT[\r][\n]"
+2017-08-02 10:26:27,419 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:72)http-outgoing-0 << "[\r][\n]"
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote wire(line:86)http-outgoing-0 << "{"status":0,"value":null,"sessionId":"3563bf60-b220-46d0-8328-1f4cb05bca1a"}"
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:124)http-outgoing-0 << HTTP/1.1 200 OK
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << X-Powered-By: Express
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-08-02 10:26:27,420 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Content-Length: 76
+2017-08-02 10:26:27,421 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Date: Wed, 02 Aug 2017 02:26:27 GMT
+2017-08-02 10:26:27,421 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote onResponseReceived(line:127)http-outgoing-0 << Connection: keep-alive
+2017-08-02 10:26:27,421 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote execute(line:284)Connection can be kept alive indefinitely
+2017-08-02 10:26:27,421 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:314)Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2017-08-02 10:26:27,421 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote releaseConnection(line:320)Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-08-02 10:26:27,422 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote closeIdleConnections(line:401)Closing connections idle longer than 0 SECONDS
+2017-08-02 10:26:27,423 DEBUG Forwarding quit on session 3563bf60-b220-46d0-8328-1f4cb05bca1a to remote close(line:81)http-outgoing-0: Close connection

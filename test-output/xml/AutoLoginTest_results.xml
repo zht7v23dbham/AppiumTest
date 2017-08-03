@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.370">
+  <properties />
+  
+  
+            <testcase name="My_Login_001" time="24.370" classname="AutoLoginTest" />
+      
+</testsuite>
