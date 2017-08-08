@@ -7,11 +7,14 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import java.io.IOException;
 import jxl.read.biff.BiffException;
+import log.AutoLogger;
 import module.ElementExist;
 import module.SlidePage;
+import module.AssertPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class AutoTestCaseID   
 {
@@ -355,7 +358,9 @@ public class AutoTestCaseID
 
 				if (caseidVerifyData != null && caseidVerifyData.length() != 0)
 				{
-					el.waitForElementByName(caseidVerifyData, driver);
+					//el.waitForElementByName(caseidVerifyData, driver);
+					AssertPage.AssertEquals(caseidVerifyData,caseidTestData,"测试"+caseidVerifyData+"和"+caseidTestData+"不一致" ,driver);
+					AutoLogger.log("测试"+caseidVerifyData+"和"+caseidTestData+"不一致");
 				}
 
 				for (p = 0; p < ft.ReadTitle().size(); p++)

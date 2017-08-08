@@ -41,7 +41,7 @@ public class AutoLogger
 	}
 
 	// 重写logger方法
-	public void log(String msg)
+	public static void log(String msg)
 	{
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Calendar ca = Calendar.getInstance();

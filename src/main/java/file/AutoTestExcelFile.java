@@ -18,6 +18,7 @@ import java.util.Map;
 import jxl.read.biff.BiffException;
 import module.Config;
 import module.ElementExist;
+import module.AssertPage;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
